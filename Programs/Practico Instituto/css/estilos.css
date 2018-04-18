@@ -1,0 +1,24 @@
+.navbar {
+    background-color: darkblue;
+    color:  white;
+}
+
+.nav-item{
+    color:white;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: red
+ }
+
+ #navbarSupportedContent {
+    align-content: right;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}

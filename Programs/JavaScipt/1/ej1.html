@@ -1,0 +1,19 @@
+<!DOCTYPE>
+    <html>
+        <script>
+            function menorNumero(arreglo){
+                var menor = arreglo[0];
+
+                for(var i=1; i < arreglo.length; i++){
+                    if (arreglo[i] < menor)
+                    menor = arreglo[i];
+                }
+                return menor;
+            }
+
+            var arreglo1=[20,2,89,4,1];
+            var menorNum = menorNumero(arreglo1);
+
+            alert(menorNum);
+        </script>
+    </html>

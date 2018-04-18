@@ -1,0 +1,31 @@
+body {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+aside {
+    float: left;
+    margin-bottom: 1000px;
+    padding: 20px;
+    width: 300px;
+}
+#column1{
+    float: left;
+    width: 200px;
+}
+#column2 {
+    float: right;
+    width: 200px;
+}
+#column3 {
+    float: right;
+    width: 200px;
+}
+li {
+    list-style: none;
+}
+h1{
+    text-align: center;
+}
+
+

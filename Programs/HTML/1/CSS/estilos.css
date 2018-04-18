@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(200, 200, 200);
+}
+h1, h3, p, a {
+    text-align: center;
+    font-family: sans-serif;
+}
+ul{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+li {
+    text-align: center;
+    font-family: sans-serif;
+}
+div#clase1 {
+    margin: auto;
+    background-color: transparent;
+}
+
+div#clase1:hover{
+    background-color: rgba(255,255,255,0.5);
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+img {
+    display: block;
+    margin: auto;   
+}
+
+nav {
+    text-align:center;
+}
+#school {
+    color:rgb(86, 86, 136)
+}
+a:link {
+    text-decoration: none;
+    color:rgb(30, 30, 90);
+}
+h1 {
+    color:rgb(30, 30, 90);
+}
+h3 {
+    color:rgb(86, 86, 136);
+}
+table {
+    width: 100%;
+    font-family: sans-serif;
+}
+th {
+    background-color: rgb(86, 86, 136);
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+    </head>
+    <script>
+        var numAleatorio = Math.ceil(Math.random() * 10);
+        var numIngresado = prompt("Adivina cuál es el número.")
+        var valorNum = parseInt(numIngresado)
+        var cantIngresos = 1;
+
+        while(valorNum != numAleatorio && cantIngresos < 3){
+            numIngresado= prompt("Te quedan " + (3 - cantIngresos) + "intentos. Ingrese nuevamente");
+            valorNum = parseInt(numIngresado);
+            cantIngresos++;
+        }
+        if(valorNum === numAleatorio)
+            alert=("Ganste!");
+        else
+            alert=("GAME OVER. Se te acabaron las oportunidades, el número era " + numAleatorio +".")
+    </script>
+</html>
