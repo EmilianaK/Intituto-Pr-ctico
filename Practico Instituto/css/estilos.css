@@ -8,7 +8,9 @@
 }
 
 .navbar-dark .navbar-nav .active>.nav-link{
-    color: red
+    text-decoration: overline underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
  }
 
  #navbarSupportedContent {
@@ -21,4 +23,8 @@ p {
 
 h1 {
     text-align: center;
+}
+
+.carousel-caption {
+    font-weight: bold;
 }
